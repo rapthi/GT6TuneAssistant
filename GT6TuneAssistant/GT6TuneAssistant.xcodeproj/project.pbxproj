@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4CB984719EE6F8200B2E01F /* TuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984619EE6F8200B2E01F /* TuneViewController.swift */; };
+		C4CB984919EE6FB900B2E01F /* SpecsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984819EE6FB900B2E01F /* SpecsTableViewController.swift */; };
+		C4CB984B19EE700F00B2E01F /* TuneDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984A19EE700F00B2E01F /* TuneDetailViewController.swift */; };
+		C4CB984D19EE705600B2E01F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984C19EE705600B2E01F /* SettingsTableViewController.swift */; };
 		C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEA19EE533400A733D8 /* AppDelegate.swift */; };
-		C4E91AED19EE533400A733D8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEC19EE533400A733D8 /* FirstViewController.swift */; };
-		C4E91AEF19EE533400A733D8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEE19EE533400A733D8 /* SecondViewController.swift */; };
 		C4E91AF219EE533400A733D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF019EE533400A733D8 /* Main.storyboard */; };
 		C4E91AF419EE533400A733D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF319EE533400A733D8 /* Images.xcassets */; };
 		C4E91AF719EE533400A733D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF519EE533400A733D8 /* LaunchScreen.xib */; };
@@ -27,11 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4CB984619EE6F8200B2E01F /* TuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneViewController.swift; path = ViewControllers/TuneViewController.swift; sourceTree = "<group>"; };
+		C4CB984819EE6FB900B2E01F /* SpecsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecsTableViewController.swift; path = ViewControllers/SpecsTableViewController.swift; sourceTree = "<group>"; };
+		C4CB984A19EE700F00B2E01F /* TuneDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneDetailViewController.swift; path = ViewControllers/TuneDetailViewController.swift; sourceTree = "<group>"; };
+		C4CB984C19EE705600B2E01F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = ViewControllers/SettingsTableViewController.swift; sourceTree = "<group>"; };
 		C4E91AE519EE533400A733D8 /* GT6TuneAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GT6TuneAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E91AE919EE533400A733D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E91AEA19EE533400A733D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4E91AEC19EE533400A733D8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C4E91AEE19EE533400A733D8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C4E91AF119EE533400A733D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E91AF319EE533400A733D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C4E91AF619EE533400A733D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4CB984319EE6ECD00B2E01F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB984619EE6F8200B2E01F /* TuneViewController.swift */,
+				C4CB984819EE6FB900B2E01F /* SpecsTableViewController.swift */,
+				C4CB984A19EE700F00B2E01F /* TuneDetailViewController.swift */,
+				C4CB984C19EE705600B2E01F /* SettingsTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C4E91ADC19EE533400A733D8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +94,8 @@
 		C4E91AE719EE533400A733D8 /* GT6TuneAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				C4CB984319EE6ECD00B2E01F /* ViewControllers */,
 				C4E91AEA19EE533400A733D8 /* AppDelegate.swift */,
-				C4E91AEC19EE533400A733D8 /* FirstViewController.swift */,
-				C4E91AEE19EE533400A733D8 /* SecondViewController.swift */,
 				C4E91AF019EE533400A733D8 /* Main.storyboard */,
 				C4E91AF319EE533400A733D8 /* Images.xcassets */,
 				C4E91AF519EE533400A733D8 /* LaunchScreen.xib */,
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E91AEF19EE533400A733D8 /* SecondViewController.swift in Sources */,
+				C4CB984719EE6F8200B2E01F /* TuneViewController.swift in Sources */,
+				C4CB984B19EE700F00B2E01F /* TuneDetailViewController.swift in Sources */,
+				C4CB984D19EE705600B2E01F /* SettingsTableViewController.swift in Sources */,
+				C4CB984919EE6FB900B2E01F /* SpecsTableViewController.swift in Sources */,
 				C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */,
-				C4E91AED19EE533400A733D8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				C4E91B0819EE533400A733D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E91B0919EE533400A733D8 /* Build configuration list for PBXNativeTarget "GT6TuneAssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				C4E91B0B19EE533400A733D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
