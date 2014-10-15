@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEA19EE533400A733D8 /* AppDelegate.swift */; };
+		C4E91AED19EE533400A733D8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEC19EE533400A733D8 /* FirstViewController.swift */; };
+		C4E91AEF19EE533400A733D8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEE19EE533400A733D8 /* SecondViewController.swift */; };
+		C4E91AF219EE533400A733D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF019EE533400A733D8 /* Main.storyboard */; };
+		C4E91AF419EE533400A733D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF319EE533400A733D8 /* Images.xcassets */; };
+		C4E91AF719EE533400A733D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF519EE533400A733D8 /* LaunchScreen.xib */; };
+		C4E91B0319EE533400A733D8 /* GT6TuneAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91B0219EE533400A733D8 /* GT6TuneAssistantTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E91AFD19EE533400A733D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E91ADD19EE533400A733D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E91AE419EE533400A733D8;
+			remoteInfo = GT6TuneAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E91AE519EE533400A733D8 /* GT6TuneAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GT6TuneAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E91AE919EE533400A733D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E91AEA19EE533400A733D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4E91AEC19EE533400A733D8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C4E91AEE19EE533400A733D8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C4E91AF119EE533400A733D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E91AF319EE533400A733D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4E91AF619EE533400A733D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4E91AFC19EE533400A733D8 /* GT6TuneAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GT6TuneAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E91B0119EE533400A733D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E91B0219EE533400A733D8 /* GT6TuneAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT6TuneAssistantTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E91AE219EE533400A733D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E91AF919EE533400A733D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E91ADC19EE533400A733D8 = {
+			isa = PBXGroup;
+			children = (
+				C4E91AE719EE533400A733D8 /* GT6TuneAssistant */,
+				C4E91AFF19EE533400A733D8 /* GT6TuneAssistantTests */,
+				C4E91AE619EE533400A733D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E91AE619EE533400A733D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91AE519EE533400A733D8 /* GT6TuneAssistant.app */,
+				C4E91AFC19EE533400A733D8 /* GT6TuneAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E91AE719EE533400A733D8 /* GT6TuneAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91AEA19EE533400A733D8 /* AppDelegate.swift */,
+				C4E91AEC19EE533400A733D8 /* FirstViewController.swift */,
+				C4E91AEE19EE533400A733D8 /* SecondViewController.swift */,
+				C4E91AF019EE533400A733D8 /* Main.storyboard */,
+				C4E91AF319EE533400A733D8 /* Images.xcassets */,
+				C4E91AF519EE533400A733D8 /* LaunchScreen.xib */,
+				C4E91AE819EE533400A733D8 /* Supporting Files */,
+			);
+			path = GT6TuneAssistant;
+			sourceTree = "<group>";
+		};
+		C4E91AE819EE533400A733D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91AE919EE533400A733D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E91AFF19EE533400A733D8 /* GT6TuneAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91B0219EE533400A733D8 /* GT6TuneAssistantTests.swift */,
+				C4E91B0019EE533400A733D8 /* Supporting Files */,
+			);
+			path = GT6TuneAssistantTests;
+			sourceTree = "<group>";
+		};
+		C4E91B0019EE533400A733D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91B0119EE533400A733D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E91AE419EE533400A733D8 /* GT6TuneAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E91B0619EE533400A733D8 /* Build configuration list for PBXNativeTarget "GT6TuneAssistant" */;
+			buildPhases = (
+				C4E91AE119EE533400A733D8 /* Sources */,
+				C4E91AE219EE533400A733D8 /* Frameworks */,
+				C4E91AE319EE533400A733D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GT6TuneAssistant;
+			productName = GT6TuneAssistant;
+			productReference = C4E91AE519EE533400A733D8 /* GT6TuneAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E91AFB19EE533400A733D8 /* GT6TuneAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E91B0919EE533400A733D8 /* Build configuration list for PBXNativeTarget "GT6TuneAssistantTests" */;
+			buildPhases = (
+				C4E91AF819EE533400A733D8 /* Sources */,
+				C4E91AF919EE533400A733D8 /* Frameworks */,
+				C4E91AFA19EE533400A733D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E91AFE19EE533400A733D8 /* PBXTargetDependency */,
+			);
+			name = GT6TuneAssistantTests;
+			productName = GT6TuneAssistantTests;
+			productReference = C4E91AFC19EE533400A733D8 /* GT6TuneAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E91ADD19EE533400A733D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Quantesys;
+				TargetAttributes = {
+					C4E91AE419EE533400A733D8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C4E91AFB19EE533400A733D8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C4E91AE419EE533400A733D8;
+					};
+				};
+			};
+			buildConfigurationList = C4E91AE019EE533400A733D8 /* Build configuration list for PBXProject "GT6TuneAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E91ADC19EE533400A733D8;
+			productRefGroup = C4E91AE619EE533400A733D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E91AE419EE533400A733D8 /* GT6TuneAssistant */,
+				C4E91AFB19EE533400A733D8 /* GT6TuneAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E91AE319EE533400A733D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E91AF219EE533400A733D8 /* Main.storyboard in Resources */,
+				C4E91AF719EE533400A733D8 /* LaunchScreen.xib in Resources */,
+				C4E91AF419EE533400A733D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E91AFA19EE533400A733D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E91AE119EE533400A733D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E91AEF19EE533400A733D8 /* SecondViewController.swift in Sources */,
+				C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */,
+				C4E91AED19EE533400A733D8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E91AF819EE533400A733D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E91B0319EE533400A733D8 /* GT6TuneAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E91AFE19EE533400A733D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E91AE419EE533400A733D8 /* GT6TuneAssistant */;
+			targetProxy = C4E91AFD19EE533400A733D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E91AF019EE533400A733D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E91AF119EE533400A733D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E91AF519EE533400A733D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E91AF619EE533400A733D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E91B0419EE533400A733D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4E91B0519EE533400A733D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E91B0719EE533400A733D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GT6TuneAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E91B0819EE533400A733D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GT6TuneAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E91B0A19EE533400A733D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GT6TuneAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GT6TuneAssistant.app/GT6TuneAssistant";
+			};
+			name = Debug;
+		};
+		C4E91B0B19EE533400A733D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GT6TuneAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GT6TuneAssistant.app/GT6TuneAssistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E91AE019EE533400A733D8 /* Build configuration list for PBXProject "GT6TuneAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E91B0419EE533400A733D8 /* Debug */,
+				C4E91B0519EE533400A733D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E91B0619EE533400A733D8 /* Build configuration list for PBXNativeTarget "GT6TuneAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E91B0719EE533400A733D8 /* Debug */,
+				C4E91B0819EE533400A733D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E91B0919EE533400A733D8 /* Build configuration list for PBXNativeTarget "GT6TuneAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E91B0A19EE533400A733D8 /* Debug */,
+				C4E91B0B19EE533400A733D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E91ADD19EE533400A733D8 /* Project object */;
+}
