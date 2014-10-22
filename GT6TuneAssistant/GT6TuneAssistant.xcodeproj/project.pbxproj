@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42BDD4B1A0A308B004B7FA1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42BDD4A1A0A308B004B7FA1 /* Realm.framework */; };
+		C42BDD4D1A0A3098004B7FA1 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42BDD4C1A0A3098004B7FA1 /* RLMSupport.swift */; };
+		C42BDD4F1A0A35CD004B7FA1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C42BDD4E1A0A35CD004B7FA1 /* libc++.dylib */; };
+		C4A3B8151A13701200A1FA55 /* TuneParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3B8141A13701200A1FA55 /* TuneParam.swift */; };
+		C4A3B8171A13701D00A1FA55 /* TuneValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3B8161A13701D00A1FA55 /* TuneValue.swift */; };
 		C4CB984719EE6F8200B2E01F /* TuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984619EE6F8200B2E01F /* TuneViewController.swift */; };
 		C4CB984919EE6FB900B2E01F /* SpecsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984819EE6FB900B2E01F /* SpecsTableViewController.swift */; };
 		C4CB984B19EE700F00B2E01F /* TuneDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984A19EE700F00B2E01F /* TuneDetailViewController.swift */; };
 		C4CB984D19EE705600B2E01F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984C19EE705600B2E01F /* SettingsTableViewController.swift */; };
+		C4CB985019EE743600B2E01F /* TuneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB984F19EE743600B2E01F /* TuneManager.swift */; };
 		C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E91AEA19EE533400A733D8 /* AppDelegate.swift */; };
 		C4E91AF219EE533400A733D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF019EE533400A733D8 /* Main.storyboard */; };
 		C4E91AF419EE533400A733D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E91AF319EE533400A733D8 /* Images.xcassets */; };
@@ -29,10 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42BDD4A1A0A308B004B7FA1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		C42BDD4C1A0A3098004B7FA1 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		C42BDD4E1A0A35CD004B7FA1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C4A3B8141A13701200A1FA55 /* TuneParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneParam.swift; path = RealmData/TuneParam.swift; sourceTree = "<group>"; };
+		C4A3B8161A13701D00A1FA55 /* TuneValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneValue.swift; path = RealmData/TuneValue.swift; sourceTree = "<group>"; };
 		C4CB984619EE6F8200B2E01F /* TuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneViewController.swift; path = ViewControllers/TuneViewController.swift; sourceTree = "<group>"; };
 		C4CB984819EE6FB900B2E01F /* SpecsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecsTableViewController.swift; path = ViewControllers/SpecsTableViewController.swift; sourceTree = "<group>"; };
 		C4CB984A19EE700F00B2E01F /* TuneDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneDetailViewController.swift; path = ViewControllers/TuneDetailViewController.swift; sourceTree = "<group>"; };
 		C4CB984C19EE705600B2E01F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = ViewControllers/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		C4CB984F19EE743600B2E01F /* TuneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TuneManager.swift; path = Managers/TuneManager.swift; sourceTree = "<group>"; };
 		C4E91AE519EE533400A733D8 /* GT6TuneAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GT6TuneAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E91AE919EE533400A733D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E91AEA19EE533400A733D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42BDD4F1A0A35CD004B7FA1 /* libc++.dylib in Frameworks */,
+				C42BDD4B1A0A308B004B7FA1 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42BDD491A0A307D004B7FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42BDD4E1A0A35CD004B7FA1 /* libc++.dylib */,
+				C42BDD4A1A0A308B004B7FA1 /* Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4CB984319EE6ECD00B2E01F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +96,28 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		C4CB984E19EE73AA00B2E01F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB984F19EE743600B2E01F /* TuneManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		C4CB985119EE7A9100B2E01F /* RealmData */ = {
+			isa = PBXGroup;
+			children = (
+				C4A3B8161A13701D00A1FA55 /* TuneValue.swift */,
+				C4A3B8141A13701200A1FA55 /* TuneParam.swift */,
+			);
+			name = RealmData;
+			sourceTree = "<group>";
+		};
 		C4E91ADC19EE533400A733D8 = {
 			isa = PBXGroup;
 			children = (
+				C42BDD4C1A0A3098004B7FA1 /* RLMSupport.swift */,
+				C42BDD491A0A307D004B7FA1 /* Frameworks */,
 				C4E91AE719EE533400A733D8 /* GT6TuneAssistant */,
 				C4E91AFF19EE533400A733D8 /* GT6TuneAssistantTests */,
 				C4E91AE619EE533400A733D8 /* Products */,
@@ -94,6 +136,8 @@
 		C4E91AE719EE533400A733D8 /* GT6TuneAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				C4CB985119EE7A9100B2E01F /* RealmData */,
+				C4CB984E19EE73AA00B2E01F /* Managers */,
 				C4CB984319EE6ECD00B2E01F /* ViewControllers */,
 				C4E91AEA19EE533400A733D8 /* AppDelegate.swift */,
 				C4E91AF019EE533400A733D8 /* Main.storyboard */,
@@ -232,8 +276,12 @@
 				C4CB984719EE6F8200B2E01F /* TuneViewController.swift in Sources */,
 				C4CB984B19EE700F00B2E01F /* TuneDetailViewController.swift in Sources */,
 				C4CB984D19EE705600B2E01F /* SettingsTableViewController.swift in Sources */,
+				C42BDD4D1A0A3098004B7FA1 /* RLMSupport.swift in Sources */,
+				C4A3B8171A13701D00A1FA55 /* TuneValue.swift in Sources */,
 				C4CB984919EE6FB900B2E01F /* SpecsTableViewController.swift in Sources */,
 				C4E91AEB19EE533400A733D8 /* AppDelegate.swift in Sources */,
+				C4A3B8151A13701200A1FA55 /* TuneParam.swift in Sources */,
+				C4CB985019EE743600B2E01F /* TuneManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GT6TuneAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GT6TuneAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
